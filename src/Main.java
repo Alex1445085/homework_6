@@ -43,6 +43,19 @@ public class Main {
                 }
             }
         }
+
+        // 4.
+        System.out.println();
+        System.out.println("4.");
+        for (int i = 10; i >= -10; i--) {
+            System.out.print(i);
+            if (i > -10) {
+                System.out.print(", ");
+            }
+            else {
+                System.out.println(".");
+            }
+        }
     }
 
 
