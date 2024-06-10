@@ -108,5 +108,12 @@ public class Main {
             depositInBank = depositInBank + 29000;
             System.out.printf("Месяц %d, сумма накоплений равна %.2f\n", month, depositInBank);
         }
+
+        // 10.
+        System.out.println();
+        System.out.println("10.");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("2*" + i + "=" + (2*i));
+        }
     }
 }
