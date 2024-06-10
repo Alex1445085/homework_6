@@ -87,5 +87,14 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.print(i + " ");
         }
+
+        // 8.
+        System.out.println();
+        System.out.println("8.");
+        int deposit = 0;
+        for (int month = 1; month <= 12; month++) {
+            deposit = deposit + 29000;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit);
+        }
     }
 }
