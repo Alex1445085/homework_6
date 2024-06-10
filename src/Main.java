@@ -6,9 +6,14 @@ public class Main {
         // 1.
         System.out.println("1.");
         for (int i = 1; i <= 10; i++) {
-            System.out.print(i + " ");
+            System.out.print(i);
+            if (i < 10) {
+                System.out.print(", ");
+            }
+            else {
+                System.out.println(".");
+            }
         }
-        System.out.println();
     }
 
 
