@@ -27,6 +27,22 @@ public class Main {
                 System.out.println(".");
             }
         }
+
+        // 3.
+        System.out.println();
+        System.out.println("3.");
+        int maxNum = 17;
+        for (int i = 0; i <= maxNum; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i);
+                if (i < maxNum - 1) {
+                    System.out.print(", ");
+                }
+                else {
+                    System.out.println(".");
+                }
+            }
+        }
     }
 
 
