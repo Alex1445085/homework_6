@@ -14,6 +14,19 @@ public class Main {
                 System.out.println(".");
             }
         }
+
+        // 2.
+        System.out.println();
+        System.out.println("2.");
+        for (int i = 10; i > 0; i--) {
+            System.out.print(i);
+            if (i > 1) {
+                System.out.print(", ");
+            }
+            else {
+                System.out.println(".");
+            }
+        }
     }
 
 
