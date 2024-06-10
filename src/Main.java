@@ -80,6 +80,7 @@ public class Main {
             maxNum =  delta * i;
             System.out.print(maxNum + " ");
         }
+        System.out.println();
 
         // 7.
         System.out.println();
@@ -87,6 +88,7 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.print(i + " ");
         }
+        System.out.println();
 
         // 8.
         System.out.println();
@@ -95,6 +97,16 @@ public class Main {
         for (int month = 1; month <= 12; month++) {
             deposit = deposit + 29000;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + deposit);
+        }
+
+        // 9.
+        System.out.println();
+        System.out.println("9.");
+        double depositInBank = 0;
+        for (int month = 1; month <= 12; month++) {
+            depositInBank = depositInBank + depositInBank * 0.01;
+            depositInBank = depositInBank + 29000;
+            System.out.printf("Месяц %d, сумма накоплений равна %.2f\n", month, depositInBank);
         }
     }
 }
