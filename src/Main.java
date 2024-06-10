@@ -80,5 +80,12 @@ public class Main {
             maxNum =  delta * i;
             System.out.print(maxNum + " ");
         }
+
+        // 7.
+        System.out.println();
+        System.out.println("7.");
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.print(i + " ");
+        }
     }
 }
