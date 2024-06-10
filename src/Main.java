@@ -65,8 +65,20 @@ public class Main {
                 System.out.println(i + " год является високосным. ");
             }
         }
+
+        // 6.
+        System.out.println();
+        System.out.println("6.");
+        for (int i = 7; i <= 98; i = i + 7) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+        maxNum = 0;
+        int delta = 7;
+        for (int i = 1; maxNum < 98; i++) {
+            maxNum =  delta * i;
+            System.out.print(maxNum + " ");
+        }
     }
-
-
-
 }
