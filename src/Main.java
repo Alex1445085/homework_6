@@ -56,6 +56,15 @@ public class Main {
                 System.out.println(".");
             }
         }
+
+        //5.
+        System.out.println();
+        System.out.println("5.");
+        for (int i = 1904; i <= 2096; i++) {
+            if (i % 4 == 0) {
+                System.out.println(i + " год является високосным. ");
+            }
+        }
     }
 
 
